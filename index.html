@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/styles/custom.css">
+	<title>Tailwind Exercise</title>
+</head>
+<body>
+	<header class="bg-grey-light lg:flex lg:items-center justify-between p-4">
+		<h1 class="text-xl">
+			<a class="text-black no-underline hover:text-grey-darkest" href="index.html">
+				Tailwind Exercise
+			</a>
+		</h1>
+
+		<form>
+			<label class="sr-only" for="search-form">Search</label>
+			<input class="border border-black p-2 rounded w-full my-4 lg:my-0 lg:w-64" id="search-form" placeholder="Search" type="search">
+			<button class="sr-only">Search</button>
+		</form>
+		<nav class="flex justify-end lg:block">
+			<ul class="flex items-center list-reset">
+				<li>
+					<a class="no-underline text-black mr-4 hover:text-grey-darkest" href="#">
+						Login
+					</a>
+				</li>
+				<li>
+					<a class="bg-black inline-block text-white no-underline p-2 rounded hover:bg-green-darker" href="#">
+						Register
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+</body>
+</html>
